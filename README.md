@@ -55,5 +55,4 @@
 ![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game2.png)
 
 **遊戲**
-
-![id](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game2.png): https://youtu.be/XJUOW5JWXaA
+[![](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game0.pn)][https://www.youtube.com/watch?v=UmU_biJP6gc]	
