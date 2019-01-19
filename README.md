@@ -33,18 +33,19 @@
 當遊戲啟動後，主要是運用thread去接收藍芽的資料，這樣就算沒有吃到資料也不會卡住，至於RPi通過網路傳輸的資料是利用Update時每一個frame
 去接收資料改變揮擊桿的位置，如果沒有吃到資料，默認為上一次的位置。
 遊戲開始時，畫面上會出現一個START圖案，要先等到按下按鈕確認六軸正常運行後，當收到向下揮即是確認，START會發亮並消失，遊戲會在五秒後開始。
-當遊戲運行時，再按一次按鈕，可以暫停遊戲，此時只要向下揮即可再次開始遊戲。
 
 
 
 
 **成果**
 --------
-實體樣子：	
+#實體樣子：#
 ![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/wand2.jpg)
 
-遊戲畫面
+#遊戲畫面：#
+##before hit##                                        
 ![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game0.png)
-![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game1.png)
+##hit##
+![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game2.png)
 
 
