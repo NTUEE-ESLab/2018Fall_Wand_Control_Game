@@ -19,9 +19,8 @@
 
 **Rpi**
 -------
-首先利用Rpi Camera 及 OpenCV 捕捉我們在棍子上貼的亮綠色膠帶，並透過Contours等功能找出包住那塊區域的RotatedRect,並用BoundingBox找出長方形四個鼎點的座標，並計算長方形中心點的像素座標位置，再將棒子的左右相對位置等資訊透過Socket傳給電腦。
+首先利用Rpi Camera 及 OpenCV 捕捉我們在棍子上貼的亮綠色膠帶，並透過Contours等功能找出包住那塊區域的RotatedRect,並用BoundingBox找出長方形四個頂點的座標，並計算長方形中心點的像素座標位置，再將棒子的左右相對位置等資訊透過Socket傳給電腦。
 
-python code:
 
 **Arduino**
 -----------
