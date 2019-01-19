@@ -42,4 +42,8 @@
 實體樣子：	
 ![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/wand.jpg)
 
+遊戲畫面
+![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game0.png)
+![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game.png)
+
 
