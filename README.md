@@ -56,4 +56,4 @@
 
 **遊戲**
 
-![My image](https://youtu.be/XJUOW5JWXaA)
+![id](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game2.png): https://youtu.be/XJUOW5JWXaA
