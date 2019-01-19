@@ -54,7 +54,7 @@
 **hit**
 ![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game2.png)
 
-**遊戲**
+**遊戲示範**
 [![](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game0.png)][Video]
 
 [Video]: https://www.youtube.com/watch?v=UmU_biJP6gc
