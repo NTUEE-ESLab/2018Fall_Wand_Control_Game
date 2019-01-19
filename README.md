@@ -47,6 +47,7 @@
 ![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/wand2.jpg)
 
 **遊戲畫面：**
+遊戲時，當箭頭移動到最前面的半透明屏幕時，依照對應跑過來的箭頭方向做出揮動，如果揮動正確屏幕及會亮綠色。
 
 **before hit**                                        
 ![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game0.png)
