@@ -24,18 +24,20 @@
 -----------
 我們利用MPU6050(六軸加速度計)裝在Arduino上，利用他傳回來的六個值，計算出ypr(yall, pitch , roll)三個角度值，並透過判斷往上、下、左、右四個方向揮擊的角度，在一定時間內從基準值變化到大於某個特定的角度，則亮相對應的燈號，並利用hc-05傳出相對應的方向判斷值給電腦。首先，其中因為mpu6050從通電到穩定需要一段時間，因此我們讓通電後按下按鈕實行校正並閃爍四個led燈，並計算每幾筆資料之間的差距直到小於某個值則判斷為校準完成，燈暗。並且由於mpu6050需要一個起始座標的修正，因此我們設置校準完後可以在自己想要的基準方向上按下按鈕，及會修正到使用者前方為原點。
 
-![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/arduino_circuit.png)
+![My image](ATKBEAR.github.com/repository/pictures/arduino_circuit.png)
 
 **Unity**
 ---------
 我們運用Unity做遊戲的界面，從遊戲運行開始一直都會在的gameobject是背景圖案、揮擊區域還有一個消失區域，在遊戲開始時會去確認主機
 藍牙有沒有連結揮擊鍵的藍牙(HC 05)，以及發送傳輸需求給RPi，無論有沒有連線到，遊戲都會開始，
-當遊戲開始後，主要是運用thread去接收資料，這樣
+當遊戲開始後，主要是運用thread去接收藍芽的資料，這樣就算沒有吃到資料也不會卡住，至於RPi通過網路傳輸的資料是利用Update每一個frame
+去接收資料改變揮擊桿的位置，如果沒有吃到資料，默認為上一次的位置。
+遊戲開始時，畫面上會出現一個START圖案，要先等到按下按鈕確認六軸正常運行後，當收到向下揮即是確認，START會發亮並消失，遊戲會在五秒後開始。
+
+
 
 
 **成果**
 --------
-實體樣子：
-![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/wand.jpg)
 
 
