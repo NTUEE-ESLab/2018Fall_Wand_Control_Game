@@ -39,13 +39,13 @@
 
 **成果**
 --------
-#實體樣子：#
+**實體樣子：**
 ![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/wand2.jpg)
 
-#遊戲畫面：#
-##before hit##                                        
+**遊戲畫面：**
+**before hit**                                        
 ![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game0.png)
-##hit##
+**hit**
 ![My image](https://github.com/NTUEE-ESLab/2018Fall_Wand_Control_Game/blob/master/pictures/game2.png)
 
 
